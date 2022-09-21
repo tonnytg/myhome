@@ -12,5 +12,19 @@ It is possible plug and play application to extend the project.
 
 ##Installation
 
+Build image
+
+    `docker build -t name:tag .`
+
+
+Run image
+
+    `docker run -it --rm -d -p 8081:80 --name web name:tag`
+
+
+Access http://localhost:8081
+
 ###Requirements
 
+  nodejs > 16
+  container to build image
