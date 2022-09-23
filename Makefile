@@ -7,7 +7,7 @@ all:
 
 runNode:
 	docker run -it --rm -d \
-		-p 8080:8080 \
+		-p 3000:3000 \
 		-v $(FOLDER):/usr/src/app \
 		--name node node:latest /bin/bash
 
